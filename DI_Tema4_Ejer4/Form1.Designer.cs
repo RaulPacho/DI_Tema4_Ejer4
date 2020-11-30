@@ -65,6 +65,7 @@ namespace DI_Tema4_Ejer4
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Suma";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -75,6 +76,7 @@ namespace DI_Tema4_Ejer4
             this.radioButton2.TabIndex = 3;
             this.radioButton2.Text = "Resta";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -85,6 +87,7 @@ namespace DI_Tema4_Ejer4
             this.radioButton3.TabIndex = 4;
             this.radioButton3.Text = "Multiplicacion";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -95,6 +98,7 @@ namespace DI_Tema4_Ejer4
             this.radioButton4.TabIndex = 5;
             this.radioButton4.Text = "Division";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // button1
             // 
@@ -104,6 +108,7 @@ namespace DI_Tema4_Ejer4
             this.button1.TabIndex = 6;
             this.button1.Text = "Operacion!";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
